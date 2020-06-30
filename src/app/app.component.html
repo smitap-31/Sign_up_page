@@ -1,0 +1,34 @@
+﻿
+  <style>
+        .flex-container {
+                display: flex; 
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 1px 1.5rem rgba(0,0.0,.1);
+                opacity:0.87;
+        }
+
+        .flex-container > div {
+            background-color: #f1f1f1;
+            font-size: 15px;
+        }
+        
+        .grad {
+            background-image: url("https://www.99images.com/download-image/477742/2560x1440");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+<!-- main app container-->
+<div class="flex-container grad">
+    <div  class="flex-container">
+        <div>
+                <alert></alert>
+                <router-outlet></router-outlet>
+        </div>
+   </div>
+   <a style="color:black" href="https://l.instagram.com/?u=https%3A%2F%2Fcampsite.bio%2Fcomunev&e=ATNWXangPutbnMy40dyajLz-NXDI4cJFvq9fr4AstGFdp8eLw5bGSO-tV1OXL9C9_zkuCtWtMY8KEYm9Mz4aZllaZ5RSV8yd&s=1"><b>&#169;Comunev</b></a>
+</div>
