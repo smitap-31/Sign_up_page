@@ -12,7 +12,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: 'https://smitap-31.github.io/Sign_up_page/',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
